@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_item_rili"
+        android:icon="@drawable/rili_rili"
+        android:showAsAction="always"
+        android:title=""/>
+    <item
+        android:id="@+id/action_item_share"
+        android:icon="@drawable/shezhi_1"
+        android:showAsAction="always"
+        android:title=""/>
+
+</menu>

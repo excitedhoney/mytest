@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/node_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/node_icon"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/node_icon"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/live_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/time"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/time"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/live_laiyuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/live_content"
+            android:layout_below="@+id/live_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/live_lianjie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/live_laiyuan"
+            android:layout_below="@+id/live_laiyuan"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+</LinearLayout>

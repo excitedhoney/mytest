@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:text="123.77" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@+id/widget"
+        android:text=""
+        android:textColor="@color/kanpan_greey"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="80dip"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="10dip"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text="持平" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/change"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dip"
+        android:text="2012-12-12"
+        android:textColor="@color/kanpan_greey"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/totalValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/change"
+        android:layout_marginBottom="5dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:text="总价值 "
+        android:textColor="@color/kanpan_greey"
+        android:textSize="12sp" />
+
+</RelativeLayout>

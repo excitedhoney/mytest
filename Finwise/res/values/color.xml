@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 看盘的颜色 -->
+    <color name="kanpan_red">#ed1b3a</color>
+    <color name="kanpan_green">#00ad4f</color>
+    <color name="kanpan_chengse">#f76920</color>
+    <color name="kanpan_greey">#d1d1d1</color>
+    <color name="kanpan_main_greey">#C0C0C0</color>
+   <color name="kanpan_main_greey_1">#C7C5C3</color>
+    <!-- end -->
+    <color name="bule">#52ABD3</color>
+    <color name="green_new">#4CDA64</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="alpha_00">#00000000</color>
+    <color name="gray">#DBDBDB</color>
+    <color name="blue">#33b5e5</color>
+    <color name="red">#ff4444</color>
+    <color name="show_hangqing_blue">#EAF4F4</color>
+    <color name="live_blue_time">#52ABD2</color>
+
+    <!-- 暗灰色 -->
+    <color name="dimgrey">#696969</color>
+
+</resources>

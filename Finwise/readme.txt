@@ -1,0 +1,3 @@
+关联3个lib项目
+librarys 项目主要是负责Fragment+ViewPager的滑动title
+ActionBar-PullToRefresh 项目主要负责ActionBar的下拉刷新，它本身又关联一个Main项目 2个组合在一起 被Finwise关联。

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <item
+        android:drawable="@android:color/transparent"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/lu_25"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/lu_50"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/lu_75"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/lu_100"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/lu_75"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/lu_50"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/lu_25"
+        android:duration="50"/>
+    <item
+        android:drawable="@android:color/transparent"
+        android:duration="50"/>
+
+</animation-list>

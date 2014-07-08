@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeightLarge"
+    android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?android:attr/listPreferredItemPaddingRight" >
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp" />
+
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@android:string/unknownName"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/imageView112"
+        android:text="11111111111111111"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@android:id/icon"
+        android:src="@drawable/chengxian" />
+
+    <View
+        android:id="@+id/vvvvv"
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:layout_alignLeft="@android:id/icon"
+        android:layout_below="@android:id/icon" />
+
+    <TextView
+        android:id="@+id/itemnews_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vvvvv"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:lines="1"
+        android:text="N/A"
+        android:textSize="12sp" />
+
+</RelativeLayout>

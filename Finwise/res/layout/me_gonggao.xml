@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="关于耶稣受难日假期安排的公告"
+            android:textColor="@color/kanpan_chengse" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="2014年4月18日（星期五）全天休市，2014年4月19日（星期六）至2014年4月20日（星期日）均为周末休市。
+      2014年4月21日（星期一）早上8：00白银、铂金、钯金恢复正常交易。2014年4月22日（星期二）早上8：00铜、镍恢复正常交易。" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:text="2014年4月8日     天津贵金属交易所"
+            android:textColor="#c0c0c0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="关于分级管理客户业务优化的通知"
+            android:textColor="@color/kanpan_chengse" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="一、客户分级调整：
+      原第一阶梯、第二阶梯以及第三阶梯客户合并为一个阶梯，相应保证金比例做出调整；原第四阶梯客户业务不发生任何变化。调整后，所有分级管理客户阶梯级别简化为第一和第二两个阶梯。
+      二、保证金比例调整：
+      第一阶梯客户（权益&lt;20万），保证金比例为8%；
+      第二阶梯客户（20万≤权益），保证金比例为5%。" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:text="2014年4月8日     天津贵金属交易所"
+            android:textColor="#c0c0c0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="关于清明假期开市的公告"
+            android:textColor="@color/kanpan_chengse" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="2014年4月7日（星期一）为中国传统清明节假期日，根据国家规定并结合交易所实际情况，交易所决定此日照常开市，请各会员单位及投资者做好资金安排及风险控制。" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:text="2014年4月1日     天津贵金属交易所"
+            android:textColor="#c0c0c0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="关于调整交易品种交易时间的公告"
+            android:textColor="@color/kanpan_chengse" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text=" 为了满足会员单位及投资者需求，使交易所行情与国际市场同步，经交易所研究决定：自2014年3月31日起，对现货镍、现货镍100、现货铜和现货铜1T的交易时间进行调整。具体调整时间：每个交易日早8：00-次日凌晨2：00，结算时间不变。" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:text="2014年3月24日     天津贵金属交易所"
+            android:textColor="#c0c0c0" />
+    </LinearLayout>
+
+</ScrollView>

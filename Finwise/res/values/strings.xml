@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">金智融贵金属</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- 行情 begin -->
+    <string name="hangqing_bar_zixuan">自选</string>
+    <string name="hangqing_bar_waihui">外汇</string>
+    <string name="hangqing_bar_shge">上金所</string>
+    <string name="hangqing_bar_tjme">津贵所</string>
+    <string name="hangqing_bar_shangping">商品</string>
+    <string name="hangqing_bar_guzhi">股指</string>
+    <string name="hangqing_bar_zhaiquan">债券</string>
+    <!-- 行情 end -->
+    <!-- 菜单 -->
+    <string name="share">Share</string>
+    <string name="favorite">Favorite</string>
+    <string name="image_desc">imageDesc</string>
+
+</resources>

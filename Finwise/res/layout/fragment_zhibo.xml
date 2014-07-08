@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="none"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/img_bigShopLogo"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginTop="-55dp"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/q_" />
+
+    <ScrollView
+        android:id="@+id/pullscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp" >
+
+                <LinearLayout
+                    android:id="@+id/ll_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal" />
+
+                <FrameLayout
+                    android:id="@+id/content1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_shopName"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/white"
+                    android:orientation="vertical" >
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/img_shopLogo"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:layout_marginLeft="21dp"
+                    android:background="@android:color/white"
+                    android:contentDescription="@null"
+                    android:padding="1px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/a" />
+
+                <TextView
+                    android:id="@+id/tv_shopName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_toRightOf="@id/img_shopLogo"
+                    android:ellipsize="end"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="3.0"
+                    android:shadowDy="3.0"
+                    android:shadowRadius="5.0"
+                    android:singleLine="true"
+                    android:text="布林格"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_phone"
+                    android:layout_marginLeft="103dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="3dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

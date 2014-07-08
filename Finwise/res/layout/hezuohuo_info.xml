@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+                      android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="				华尔街见闻是中国领先的财经新媒体平台，我们提供全球经济和金融资讯，帮助中国投资者理解国际金融市场。" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+                      android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="				过去几年全球市场每一个重大转折点，第一个向中国投资者发出警报的都是华尔街见闻。读懂金融，从华尔街见闻开始。" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/list_divider_line" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/imageView1"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/pingan" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="				中国平安是国内领先的综合金融服务集团,《福布斯》世界500强暨中国非国有企业第一。平安银行以公司、零售、同业、投行“四轮”驱动,打造“专业化、集约化、综合金融、互联网金融”四大特色。" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+                      android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="				至今已发展成为融保险、银行、投资等金融业务为一体的整合、紧密、多元的综合金融服务集团。" />
+
+        <View
+            android:id="@+id/View01"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView6"
+            android:background="@drawable/list_divider_line" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/View01"
+                      android:layout_marginLeft="10dp"
+            android:src="@drawable/jianwen1" />
+    </RelativeLayout>
+
+</ScrollView>
