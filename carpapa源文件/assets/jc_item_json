@@ -1,0 +1,404 @@
+{
+	[
+	
+		{	"name":"发动机",
+			"item":[
+				{"name":"曾修复","color":1},
+				{"name":"冒黑烟","color":1},
+				{"name":"轻微渗油","color":1},
+				{"name":"曾改装","color":2},
+				{"name":"发动机异响","color":1},
+				{"name":"怠速不稳","color":1},
+				{"name":"怠速不稳","color":1},
+				{"name":"发动机抖动 ","color":1},
+				{"name":"严重渗油 ","color":1},
+				{"name":"发动机相应不良 ","color":1},
+				{"name":"冒蓝烟","color":2}
+				
+			]
+		}
+	
+}
+----发动机
+INSERT INTO `party_db`.`tb_carbb` VALUES ('发动机', '曾修复', '黑');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('发动机', '冒黑烟', '黑');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('发动机', '轻微渗油', '黑');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('发动机', '曾改装', '黑');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('发动机', '发动机异响', '黑');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('发动机', '怠速不稳', '黑');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('发动机', '发动机抖动', '黑');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('发动机', '严重渗油', '黑');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('发动机', '发动机相应不良', '黑');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('发动机', '冒蓝烟', '黑');
+
+----驱传动系统
+INSERT INTO `party_db`.`tb_carbb` VALUES ('驱传动系统', '曾修复', '黄');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('驱传动系统', '曾改装', '黄');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('驱传动系统', '前后桥异响', '黑');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('驱传动系统', '前后桥渗油', '黑');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('驱传动系统', '传动轴抖动', '黑');
+
+----涡轮增压系统
+INSERT INTO `party_db`.`tb_carbb` VALUES ('涡轮增压系统', '曾改装', '黄');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('涡轮增压系统', '曾更换', '黄');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('涡轮增压系统', '增压器异响', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('涡轮增压系统', '增压器损坏', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('涡轮增压系统', '增压器渗油', '红');
+
+-----底盘升降系系统
+INSERT INTO `party_db`.`tb_carbb` VALUES ('底盘升降系系统', '曾改装', '黄');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('底盘升降系系统', '升降系统使用功能缺失', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('底盘升降系系统', '零部件损坏，缺失', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('底盘升降系系统', '渗漏（漏水漏油漏气）', '红');
+
+---启动系统
+INSERT INTO `party_db`.`tb_carbb` VALUES ('启动系统', '曾改装', '黄');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('启动系统', '曾更换', '黄');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('启动系统', '启动异响', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('启动系统', '冷启动困难', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('启动系统', '热启动困难', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('启动系统', '无法启动', '红');
+
+
+---变速系统
+INSERT INTO `party_db`.`tb_carbb` VALUES ('变速系统', '曾改装', '黄');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('变速系统', '曾更换', '黄');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('变速系统', '变速器异响', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('变速系统', '换挡困难', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('变速系统', '换挡冲挡', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('变速系统', '渗油', '红');
+
+
+--
+离合器
+INSERT INTO `party_db`.`tb_carbb` VALUES ('离合器', '离合器打滑', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('离合器', '离合器异响', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('离合器', '离合器结合不稳', '红');
+
+---
+进气系统
+INSERT INTO `party_db`.`tb_carbb` VALUES ('进气系统', '需更换', '红');
+
+--
+冷却系统
+INSERT INTO `party_db`.`tb_carbb` VALUES ('冷却系统', '需更换', '红');
+
+<item>制动系统</item>
+INSERT INTO `party_db`.`tb_carbb` VALUES ('启动系统', '曾修复', '黄');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('制动系统', '需更换', '红');
+
+        <item>排气系统</item>
+ INSERT INTO `party_db`.`tb_carbb` VALUES ('排气系统', '需更换', '红');
+        
+        
+        <item>转向系统</item>
+INSERT INTO `party_db`.`tb_carbb` VALUES ('转向系统', '转向机曾更换', '红');
+ INSERT INTO `party_db`.`tb_carbb` VALUES ('转向系统', ’转向异响', '红');
+ INSERT INTO `party_db`.`tb_carbb` VALUES ('转向系统', '转向助力失灵', '红');
+ INSERT INTO `party_db`.`tb_carbb` VALUES ('转向系统', '转向自由行程过大', '红');
+ INSERT INTO `party_db`.`tb_carbb` VALUES ('转向系统', '转向系渗油', '红');
+          
+        <item>空调系统</item>
+  INSERT INTO `party_db`.`tb_carbb` VALUES ('空调系统', '冷凝器曾更换', '红');
+  INSERT INTO `party_db`.`tb_carbb` VALUES ('空调系统', '空调泵曾更换', '红');
+  INSERT INTO `party_db`.`tb_carbb` VALUES ('空调系统', '制冷液缺失', '红');
+  INSERT INTO `party_db`.`tb_carbb` VALUES ('空调系统', '制冷失效', '红');
+  INSERT INTO `party_db`.`tb_carbb` VALUES ('空调系统', '制热失效', '红');
+  INSERT INTO `party_db`.`tb_carbb` VALUES ('空调系统', '冷凝器变形损坏（需更换）', '红');
+  INSERT INTO `party_db`.`tb_carbb` VALUES ('空调系统', '空调泵异响', '红');
+        
+        
+        <item>左前减震器</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('左前减震器', '曾修复或需要调整', '红');
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('左前减震器', '曾需更换', '红');
+        
+        <item>左后避震器</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('左后避震器', '曾修复或需要调整', '红');
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('左后避震器', '曾需更换', '红');
+        
+        <item>右前减震器</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('右前减震器', '曾修复或需要调整', '红');
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('右前减震器', '曾需更换', '红');
+        
+        <item>右后避震器</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('右后避震器', '曾修复或需要调整', '红');
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('右后避震器', '曾需更换', '红');
+        
+        <item>水箱</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('水箱', '曾修复或需要调整', '红');
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('水箱', '曾需更换', '红');
+        
+        <item>发电机</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('发电机', '曾修复或需要调整', '红');
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('发电机', '曾需更换', '红');
+        <item>助力转向泵</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('助力转向泵', '曾修复或需要调整', '红');
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('助力转向泵', '曾需更换', '红');
+        <item>方向机</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('方向机', '曾修复或需要调整', '红');
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('方向机', '曾需更换', '红');
+        <item>蓄电池</item>
+         INSERT INTO `party_db`.`tb_carbb` VALUES ('蓄电池', '需更换', '红');
+         
+        <item>刹车</item>
+         INSERT INTO `party_db`.`tb_carbb` VALUES ('刹车', '曾修复或需要更换刹车片', '黄');
+          INSERT INTO `party_db`.`tb_carbb` VALUES ('刹车', '需更换刹车盘片', '红');
+        
+        <item>车内照明系统</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('刹车', '故障', '红');
+        <item>喇叭</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('喇叭', '故障', '红');
+        <item>雨刮器</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('雨刮器', '故障', '红');
+        <item>电动门窗</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('电动门窗', '故障', '红');
+        <item>天窗</item>
+         INSERT INTO `party_db`.`tb_carbb` VALUES ('天窗', '曾修复或需要更换刹车片', '黄');
+          INSERT INTO `party_db`.`tb_carbb` VALUES ('天窗', '需更换刹车盘片', '红');
+        <item>音响系统</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('音响系统', '故障', '红');
+        <item>仪表系统</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('仪表系统', '故障', '红');
+        <item>泊车系统</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('泊车系统', '故障', '红');
+        <item>车内噪音</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('车内噪音', '故障', '红');
+        
+        
+        左前大灯总成
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前大灯总成', '老化', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前大灯总成', '需换灯泡', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前大灯总成', '总成损坏', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后大灯总成', '老化', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后大灯总成', '需换灯泡', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后大灯总成', '总成损坏', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前大灯总成', '老化', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前大灯总成', '需换灯泡', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前大灯总成', '总成损坏', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后大灯总成', '老化', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后大灯总成', '需换灯泡', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后大灯总成', '总成损坏', '红');
+
+前挡风玻璃 后挡风玻璃
+<item>左前车门玻璃</item>
+        <item>左后车门玻璃</item>
+        <item>右前车门玻璃</item>
+        <item>右后车门玻璃</item>
+        <item>左后视镜</item>
+        <item>右后视镜</item>
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('前挡风玻璃', '曾更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('前挡风玻璃', '损坏', '红');
+
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('后挡风玻璃', '曾更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('后挡风玻璃', '损坏', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后车门玻璃', '曾更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后车门玻璃', '损坏', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前车门玻璃', '曾更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前车门玻璃', '损坏', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后车门玻璃', '曾更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后车门玻璃', '损坏', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后视镜', '曾更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后视镜', '损坏', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后视镜', '曾更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后视镜', '损坏', '红');
+
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前车门玻璃', '曾更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前车门玻璃', '损坏', '红');
+
+
+左前轮胎
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前轮胎', '损坏', '红');
+
+
+
+---
+
+左前门内饰板
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前门内饰板', '脏污', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前门内饰板', '损坏', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前门内扣手', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前门内扣手', '损坏', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('主驾驶座椅手柄', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('主驾驶座椅手柄', '损坏', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左A柱内饰板', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左A柱内饰板', '损坏', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('主驾驶遮阳板', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('主驾驶遮阳板', '损坏', '红');
+
+
+<item>车顶棚</item>
+INSERT INTO `party_db`.`tb_carbb` VALUES ('车顶棚', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('车顶棚', '损坏', '红');
+
+        <item>方向盘</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('方向盘', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('方向盘', '损坏', '红');
+        
+        <item>仪表台</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('仪表台', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('仪表台', '损坏', '红');
+        
+        <item>中控台</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('主驾驶遮阳板', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('主驾驶遮阳板', '损坏', '红');
+        
+        <item>内后视镜</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('内后视镜', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('内后视镜', '损坏', '红');
+        
+        <item>排挡杆和防护罩</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('排挡杆和防护罩', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('排挡杆和防护罩', '损坏', '红');
+        
+        <item>手刹拉杆</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('手刹拉杆', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('手刹拉杆', '损坏', '红');
+        
+        <item>前扶手箱</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('前扶手箱', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('前扶手箱', '损坏', '红');
+        
+        <item>右A柱内饰板</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('右A柱内饰板', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右A柱内饰板', '损坏', '红');
+        
+        <item>副驾驶遮阳板</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('副驾驶遮阳板', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('副驾驶遮阳板', '损坏', '红');
+        
+        <item>副驾驶座椅手柄</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('副驾驶座椅手柄', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('副驾驶座椅手柄', '损坏', '红');
+        
+        <item>副驾驶遮阳板</item>
+        INSERT INTO `party_db`.`tb_carbb` VALUES ('副驾驶遮阳板', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('副驾驶遮阳板', '损坏', '红');
+        
+        <item>右前门内饰板</item>
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前门内饰板', '脏污', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前门内饰板', '损坏', '红');
+
+----
+
+左A柱
+变形	扭曲	更换	烧焊	褶皱	开裂
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左A柱', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左A柱', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左A柱', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左A柱', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左A柱', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左A柱', '开裂', '红');
+
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左B柱', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左B柱', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左B柱', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左B柱', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左B柱', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左B柱', '开裂', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左C柱', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左C柱', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左C柱', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左C柱', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左C柱', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左C柱', '开裂', '红');
+
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右A柱', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右A柱', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右A柱', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右A柱', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右A柱', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右A柱', '开裂', '红');
+
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右B柱', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右B柱', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右B柱', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右B柱', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右B柱', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右B柱', '开裂', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右C柱', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右C柱', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右C柱', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右C柱', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右C柱', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右C柱', '开裂', '红');
+
+
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前灯架', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前灯架', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前灯架', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前灯架', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前灯架', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左前灯架', '开裂', '红');
+
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后灯架', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后灯架', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后灯架', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后灯架', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后灯架', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('左后灯架', '开裂', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前灯架', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前灯架', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前灯架', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前灯架', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前灯架', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右前灯架', '开裂', '红');
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后灯架', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后灯架', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后灯架', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后灯架', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后灯架', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('右后灯架', '开裂', '红');
+
+
+----
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('水箱框架', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('水箱框架', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('水箱框架', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('水箱框架', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('水箱框架', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('水箱框架', '开裂', '红');
+
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('前防撞梁', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('前防撞梁', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('前防撞梁', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('前防撞梁', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('前防撞梁', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('前防撞梁', '开裂', '红');
+
+
+INSERT INTO `party_db`.`tb_carbb` VALUES ('后防撞梁', '变形', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('后防撞梁', '扭曲', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('后防撞梁', '更换', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('后防撞梁', '烧焊', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('后防撞梁', '褶皱', '红');
+INSERT INTO `party_db`.`tb_carbb` VALUES ('后防撞梁', '开裂', '红');
+
+
