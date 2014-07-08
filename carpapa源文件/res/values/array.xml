@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 核心 -->
+    <string-array name="hexing">
+        <item>发动机</item>
+        <item>驱传动系统</item>
+        <item>涡轮增压系统</item>
+        <item>底盘升降系系统</item>
+        <item>启动系统</item>
+        <item>变速系统</item>
+    </string-array>
+    <!-- 辅助 -->
+    <string-array name="fuzhe">
+        <item >离合器</item>
+        <item>进气系统</item>
+        <item>冷却系统</item>
+        <item>制动系统</item>
+        <item>排气系统</item>
+        <item>转向系统</item>
+        <item>空调系统</item>
+        <item>左前减震器</item>
+        <item>左后避震器</item>
+        <item>右前减震器</item>
+        <item>右后避震器</item>
+        <item>水箱</item>
+        <item>发电机</item>
+        <item>助力转向泵</item>
+        <item>方向机</item>
+        <item>蓄电池</item>
+        <item>刹车</item>
+        <item>车内照明系统</item>
+        <item>喇叭</item>
+        <item>雨刮器</item>
+        <item>电动门窗</item>
+        <item>天窗</item>
+        <item>音响系统</item>
+        <item>仪表系统</item>
+        <item>泊车系统</item>
+        <item>车内噪音</item>
+    </string-array>
+    <!-- 车灯总成外观 -->
+    <string-array name="waiguan_chedeng">
+        <item>左前大灯总成</item>
+        <item>左后大灯总成</item>
+        <item>右前大灯总成</item>
+        <item>右前大灯总成</item>
+    </string-array>
+    <string-array name="waiguan_lk">
+        <item>前挡风玻璃</item>
+        <item>后挡风玻璃</item>
+        <item>左前车门玻璃</item>
+        <item>左后车门玻璃</item>
+        <item>右前车门玻璃</item>
+        <item>右后车门玻璃</item>
+        <item>左后视镜</item>
+        <item>右后视镜</item>
+        <item>左前轮毂</item>
+        <item>左后轮毂</item>
+        <item>右前轮毂</item>
+        <item>右后轮毂</item>
+    </string-array>
+    <string-array name="waiguan_ct">
+        <item>左前轮胎</item>
+        <item>左后轮胎</item>
+        <item>右前轮胎</item>
+        <item>进气格栅</item>
+        <item>左前门拉手</item>
+        <item>右前门拉手</item>
+        <item>左后门拉手</item>
+        <item>右后门拉手</item>
+        <item>前车标</item>
+        <item>尾标</item>
+        <item>天线</item>
+        <item>发动机罩</item>
+        <item>车门防擦</item>
+        <item>大灯清洗盖</item>
+        <item>拖车钩盖</item>
+        <item>尾翼</item>
+        <item>雾灯</item>
+    </string-array>
+    <!-- 车辆内饰检测 -->
+    <string-array name="neishi">
+        <item>左前门内饰板</item>
+        <item>左前门内扣手</item>
+        <item>主驾驶座椅</item>
+        <item>主驾驶座椅手柄</item>
+        <item>左A柱内饰板</item>
+        <item>主驾驶遮阳板</item>
+        <item>车顶棚</item>
+        <item>方向盘</item>
+        <item>仪表台</item>
+        <item>中控台</item>
+        <item>内后视镜</item>
+        <item>排挡杆和防护罩</item>
+        <item>手刹拉杆</item>
+        <item>前扶手箱</item>
+        <item>右A柱内饰板</item>
+        <item>副驾驶遮阳板</item>
+        <item>副驾驶座椅手柄</item>
+        <item>副驾驶遮阳板</item>
+        <item>右前门内饰板</item>
+    </string-array>
+    <!-- 车架结构检测 -->
+    <string-array name="jcchejia">
+        <item>左A柱</item>
+        <item>左B柱</item>
+        <item>左C柱</item>
+        <item>右A柱</item>
+        <item>右B柱</item>
+        <item>右C柱</item>
+    </string-array>
+    <!-- 车架辅助结构检测 -->
+    <string-array name="jcfuzhu">
+        <item>左前灯架</item>
+        <item>左后灯架</item>
+        <item>右前灯架</item>
+        <item>右后灯架</item>
+        <item>水箱框架</item>
+       
+        <item>前防撞梁</item>
+        <item>后防撞梁</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+        
+        <color name="orange">#ff7b00</color>
+ 	<color name="background">#FFE7EBE7</color>
+    <color name="bartitle">#616266</color>
+    <color name="blue_bg">#004268</color>
+    <color name="black">#000000</color>
+    <color name="gray">#C0C0C0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="glass">#00000000</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000FF</color>
+    
+    <color name="yellow">#FFFF00</color>
+    <color name="bg">#ddd</color>
+    <color name="transparent">#00000000</color>
+    <color name="MineYellow">#DEA03D</color>
+	<color name="headColor">#f3f3f3</color>
+	<color name="contentColor">#f2f2ef</color>
+	<color name="tabTextColor">#b8b8b8</color>
+	<!-- shoplist -->
+	<color name="shopPhoneColor">#666666</color>
+	<color name="shopAddressColor">#737373</color>
+	<color name="shopCityColor">#a2a2a2</color>
+	
+	<color name="head_c">#273249</color>
+	<color name="head_c2">#273249</color>
+	<!-- 我的  更多 中的区域线 -->
+	<!-- 背景1-->
+	<color name="tmp_bg1">#00bac7</color>
+	<color name="tmp_bg2">#d66e37</color>
+	<color name="tmp_bg2_2">#777777</color>
+	<!-- 按钮颜色 -->
+	<color name="btnColor">#f3f3f3</color>
+	<!-- 头部标题颜色 -->
+	<!-- 头部标题颜色 -->
+	<color name="left_menu_s">#122785</color>
+	<color name="left_menu_n">#FFFFFF</color>
+	<color name="zhengc_bg">#1abc9c</color>
+	<color name="no_zhengc_bg">#e74c3c</color>
+	<!-- 登录背景 -->
+	<color name="ui_bg">#1b253b</color>
+	<color name="main_ui_bg">#1e293a</color>
+	
+	
+	<color name="btn_s">#009797</color>
+	<color name="btn_n">#767676</color>
+	
+	<color name="task_tc">#2a3967</color>
+	<color name="task_bg">#d1daec</color>
+</resources>

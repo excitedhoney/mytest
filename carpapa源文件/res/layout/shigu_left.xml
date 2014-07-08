@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/hexingText"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="车架结构检测"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textSize="20sp" 
+              android:background="@drawable/menu_selector"
+            android:textColor="@color/left_menu_color"
+             android:button="@null"
+            />
+
+        <RadioButton
+            android:id="@+id/fuzhuText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="车架辅助结构检测"
+            android:textSize="20sp" 
+              android:background="@drawable/menu_selector"
+            android:textColor="@color/left_menu_color"
+             android:button="@null"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="失火检测"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textSize="20sp"
+              android:background="@drawable/menu_selector"
+            android:textColor="@color/left_menu_color"
+             android:button="@null"
+             />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="浸泡检测"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textSize="20sp"
+              android:background="@drawable/menu_selector"
+            android:textColor="@color/left_menu_color"
+             android:button="@null"
+             />
+    </RadioGroup>
+
+</LinearLayout>

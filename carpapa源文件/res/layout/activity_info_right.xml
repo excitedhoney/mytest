@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/shouxu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp" >
+
+        <include layout="@layout/info_shouxu" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/peizhi"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:visibility="gone" >
+
+        <include layout="@layout/info_peizhi" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/beizhu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/line_bg"
+        android:visibility="gone" >
+
+        <EditText
+            android:gravity="left"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+
+</LinearLayout>

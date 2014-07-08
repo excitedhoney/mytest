@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/hexingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:checked="true"
+           android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:gravity="left"
+            android:text="核心驾驶系统检测"
+             android:background="@drawable/menu_selector"
+            android:textColor="@color/left_menu_color"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/fuzhuText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+             android:button="@null"
+            android:background="@drawable/menu_selector"
+            android:gravity="left"
+            android:text="辅助驾驶系统检测"
+            android:textColor="@color/left_menu_color"
+            android:textSize="20sp" />
+         <RadioButton
+            android:id="@+id/waiguanText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+             android:button="@null"
+            android:background="@drawable/menu_selector"
+            android:gravity="left"
+            android:text="车身外观漆面"
+            android:textColor="@color/left_menu_color"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/qitaText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+             android:button="@null"
+            android:background="@drawable/menu_selector"
+            android:gravity="left"
+            android:text="其他外观检测"
+            android:textColor="@color/left_menu_color"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/cheneiText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+             android:button="@null"
+            android:background="@drawable/menu_selector"
+            android:gravity="left"
+            android:text="车辆内饰检测"
+            android:textColor="@color/left_menu_color"
+            android:textSize="20sp" />
+
+       
+    </RadioGroup>
+
+</LinearLayout>

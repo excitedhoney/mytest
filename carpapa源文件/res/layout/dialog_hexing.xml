@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/checkBoxZc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="正常" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMhy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="冒黑烟" />
+
+    <CheckBox
+        android:id="@+id/checkBoxQwsy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="轻微渗油" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCgz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="曾改装" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFdjyx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发动机异响" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFdjddyz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发动机抖动严重" />
+
+    <CheckBox
+        android:id="@+id/checkBoxYzsy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="严重渗油" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFdjxybl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发动机相应不良" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="冒蓝烟" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/canelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>

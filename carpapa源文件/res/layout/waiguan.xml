@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/car" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="20dp"
+            android:layout_y="20dp"
+            android:text="小小小"
+            android:textColor="@color/red" />
+
+        <ImageView
+            android:layout_x="150dp"
+            android:layout_y="0dp"
+            android:onClick="qianbaoxiangang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:src="@drawable/car_qianbaoxingang"
+            />
+    </AbsoluteLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/car"
+        android:visibility="gone" />
+
+</LinearLayout>

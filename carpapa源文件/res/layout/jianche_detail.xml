@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ 	<RelativeLayout  
+        android:id="@+id/hexin"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_margin="10dp"  
+         >  
+  
+        <include layout="@layout/hexing" />  
+    </RelativeLayout>  
+     <RelativeLayout  
+        android:id="@+id/fuzhu"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_margin="10dp"  
+        android:visibility="gone" >  
+  
+        <include layout="@layout/fuzhu" />  
+    </RelativeLayout>
+    <RelativeLayout  
+        android:id="@+id/waiguan"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_margin="10dp"  
+        android:visibility="gone" >  
+  
+        <include layout="@layout/waiguan" />  
+    </RelativeLayout>   
+     <RelativeLayout  
+        android:id="@+id/qita"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_margin="10dp"  
+        android:visibility="gone" >  
+  
+        <include layout="@layout/qita" />  
+    </RelativeLayout>
+    <RelativeLayout  
+        android:id="@+id/chenei"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_margin="10dp"  
+        android:visibility="gone" >  
+  
+        <include layout="@layout/chenei" />  
+    </RelativeLayout>
+    
+</LinearLayout>

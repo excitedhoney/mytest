@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_ui_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/head_line_bg"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            
+            android:layout_marginLeft="5dp"
+            android:onClick="back"
+            android:background="@drawable/back_btn_bg"/>
+
+        <TextView
+            android:id="@+id/noTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:text="编号12345" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/ic_save"
+            android:text="上传" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1" >
+
+           
+
+            <TextView
+                android:id="@+id/infoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="info"
+                android:textColor="@color/white"
+                  android:drawableTop="@drawable/six_icon"
+                android:text="基本信息" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+             android:gravity="center"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/jiancheText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:gravity="center"
+                android:drawableTop="@drawable/zonghe_icon"
+               android:textColor="@color/white"
+                android:text="综合检测" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+             android:gravity="center"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/shiguText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/shigu_icon"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="事故勘察" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+             android:gravity="center"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/photoTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/photo_icon"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="上传照片" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</LinearLayout>
