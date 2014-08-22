@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginTop="5dip"
+    android:background="@drawable/bgcolor_item_list"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/notice_name"
+                style="@style/white18Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="纸黄金" />
+
+            <TextView
+                android:id="@+id/notice_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:text="价格 >= 123213"
+                android:textColor="#81868A"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/white14Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建时间:"
+                android:textColor="@color/grey" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/notice_createtime"
+                style="@style/white14Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08-12 -12"
+                android:textColor="@color/grey" />
+
+            <TextView
+                android:id="@+id/notice_shixiao"
+                style="@style/white12Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="时效  24小时"
+                android:textColor="#F30016" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_delete"
+        style="@style/white14Text"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/bg_register_ok_btn1"
+        android:padding="5dip"
+        android:text="删除" />
+
+</LinearLayout>

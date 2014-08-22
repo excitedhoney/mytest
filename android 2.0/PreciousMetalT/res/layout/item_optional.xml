@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgcolor_item_list"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/change_rate"
+        style="@style/white14Text"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/ludi"
+        android:focusable="false"
+        android:singleLine="true"
+        android:text="+0.05%" />
+
+    <LinearLayout
+        android:id="@+id/linearlayot"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="left|center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/white14Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="5"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="4"
+            android:minEms="4"
+            android:singleLine="true"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_optional"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/change_rate"
+        android:layout_toRightOf="@+id/linearlayot" >
+
+        <TextView
+            android:id="@+id/buying_rate"
+            style="@style/white18Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:maxEms="4"
+            android:singleLine="true"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/selling_rate"
+            style="@style/white18Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:maxEms="4"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="" />
+    </LinearLayout>
+
+</RelativeLayout>

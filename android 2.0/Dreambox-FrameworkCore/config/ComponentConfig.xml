@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components>
+	<component name="UP_DOWN">
+	    <lifecycleclass>com.wondersgroup.w3studio.android.framework.component.updown.lifecycle.UpdownComponentLifecycle</lifecycleclass>
+	    <config>/component/up_down/Updown-DataBase.xml</config>
+	</component>
+</components>
+

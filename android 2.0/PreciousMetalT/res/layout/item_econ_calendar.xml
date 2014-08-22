@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:background="@drawable/bgcolor_item_list"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/event_type"
+        style="@style/white14Text"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:background="@drawable/qianse_di_duan"
+        android:text="事件" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/national_flag"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <TextView
+            android:id="@+id/event_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/tixing_di"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/naozhong" />
+
+            <TextView
+                android:id="@+id/event_time"
+                style="@style/white14Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:text="12：01" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/title_bg_color" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/actual"
+                style="@style/white12Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今值 --" />
+
+            <TextView
+                android:id="@+id/forecast"
+                style="@style/white12Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="预期 --" />
+
+            <TextView
+                android:id="@+id/previous"
+                style="@style/white12Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="前值 --" />
+        </LinearLayout>
+
+        <RatingBar
+            android:id="@+id/ratingbar"
+            style="@style/ratingbar_style"
+            android:layout_width="wrap_content"
+            android:layout_height="8dip"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:rating="0" />
+    </LinearLayout>
+
+</LinearLayout>

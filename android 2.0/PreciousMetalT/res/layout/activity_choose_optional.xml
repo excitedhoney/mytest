@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/hander_view"
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@color/title_bg_color"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="48dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:onClick="back" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/bg_title_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/white22Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:maxEms="8"
+            android:singleLine="true"
+            android:text="选择行情" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_tjs"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#333C46"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/white18Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="天津所" />
+
+                <ImageView
+                    android:id="@+id/iv_tjs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dip"
+                    android:src="@drawable/arrow_down" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/tjsListView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/line_list_divider_night" />
+
+            <LinearLayout
+                android:id="@+id/ll_sjs"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#333C46"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/white18Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="上交所" />
+
+                <ImageView
+                    android:id="@+id/iv_sjs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dip"
+                    android:src="@drawable/arrow_down" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/sjsListView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

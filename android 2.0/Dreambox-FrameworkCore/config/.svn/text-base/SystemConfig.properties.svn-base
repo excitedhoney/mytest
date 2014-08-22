@@ -1,0 +1,4 @@
+AppName=TestApp
+AppVersion=1.0
+DBName=test.db
+DBVersion=7

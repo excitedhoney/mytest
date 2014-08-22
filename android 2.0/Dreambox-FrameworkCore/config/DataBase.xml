@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<table name="TEST_TABLE1">
+	    <fields>
+	        id 				INTEGER	PRIMARY KEY AUTOINCREMENT
+			,fileID      		TEXT
+			,parentFolderID		TEXT    
+	    </fields>
+	</table>
+</resources>
+

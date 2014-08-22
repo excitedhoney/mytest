@@ -1,0 +1,163 @@
+8
+
+dir
+6146
+http://svn.mtomato.cn:8081/svn/tomato/dzlc/Dreambox-FrameworkCore
+http://svn.mtomato.cn:8081/svn/tomato
+
+
+
+2014-02-13T01:49:13.754761Z
+5516
+huqianlong
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0e9173dd-98d4-4314-a43d-3dde71727b1f
+
+${project.coverage.html.dir}
+dir
+
+${project.coverage.xml.dir}
+dir
+
+${project.doc.dir}
+dir
+
+${project.reports.html.dir}
+dir
+
+${project.reports.xml.dir}
+dir
+
+.classpath
+file
+
+
+
+
+2014-04-18T13:41:10.000000Z
+d1d5d7e19ef14f5ac17fd2b06def1112
+2014-02-13T01:49:13.754761Z
+5516
+huqianlong
+
+.project
+file
+
+
+
+
+2014-03-02T15:54:54.000000Z
+ecae3906f4b6f7f102a8d4a871c78d26
+2014-02-13T01:49:13.754761Z
+5516
+huqianlong
+
+.settings
+dir
+
+bin
+dir
+
+build-dist.properties
+file
+
+
+
+
+2014-03-02T15:54:56.000000Z
+db9e8096cd47d3bf57b293523f6da66f
+2014-02-13T01:49:13.754761Z
+5516
+huqianlong
+
+build.xml
+file
+
+
+
+
+2014-03-02T15:54:57.000000Z
+49c8622719ce3f870fa5c23f9b9458c6
+2014-02-13T01:49:13.754761Z
+5516
+huqianlong
+
+checkstyle.xml
+file
+
+
+
+
+2014-03-02T15:54:56.000000Z
+260a886374874c65be7004d778364c71
+2014-02-13T01:49:13.754761Z
+5516
+huqianlong
+
+classes
+dir
+
+codeformater.xml
+file
+
+
+
+
+2014-03-02T15:54:57.000000Z
+83296ad54414f17b9d689c0ccd83129e
+2014-02-13T01:49:13.754761Z
+5516
+huqianlong
+
+codetemplates.xml
+file
+
+
+
+
+2014-03-02T15:54:56.000000Z
+a94a0b235431893721c26d2cef13d196
+2014-02-13T01:49:13.754761Z
+5516
+huqianlong
+
+config
+dir
+
+dist
+dir
+
+doc
+dir
+
+dreambox-header.txt
+file
+
+
+
+
+2014-03-02T15:54:57.000000Z
+871243a750b6ff97f2acee2105716e85
+2014-02-13T01:49:13.754761Z
+5516
+huqianlong
+
+lib
+dir
+
+src
+dir
+

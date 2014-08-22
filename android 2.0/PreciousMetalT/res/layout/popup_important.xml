@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/content_bg_color"
+    android:orientation="vertical" >
+    
+    <RadioGroup
+        android:id="@+id/rg_important"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <RadioButton
+            android:id="@+id/one_stat"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:drawableRight="@drawable/bg_optional_check"
+            android:padding="10dip"
+            android:text="  一星 " />
+
+        <RadioButton
+            android:id="@+id/two_stat"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:drawableRight="@drawable/bg_optional_check"
+            android:padding="10dip"
+            android:text="  二星  " />
+
+        <RadioButton
+            android:id="@+id/three_stat"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:drawableRight="@drawable/bg_optional_check"
+            android:padding="10dip"
+            android:text="  三星  " />
+    </RadioGroup>
+
+
+</LinearLayout>

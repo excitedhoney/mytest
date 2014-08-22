@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore
+END
+dreambox-header.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/dreambox-header.txt
+END
+codetemplates.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/codetemplates.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/.classpath
+END
+checkstyle.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/checkstyle.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/.project
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/build.xml
+END
+build-dist.properties
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/build-dist.properties
+END
+codeformater.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/codeformater.xml
+END

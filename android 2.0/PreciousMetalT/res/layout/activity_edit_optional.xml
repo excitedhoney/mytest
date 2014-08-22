@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.xiyou.apps.lookpan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/title_view"
+        android:layout_width="fill_parent"
+        android:layout_height="36dip"
+        android:background="#1A1F24"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="品种代码"
+            android:textColor="@color/grey"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="48dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="提醒"
+            android:textColor="@color/grey"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="48dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="置顶"
+            android:textColor="@color/grey"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="48dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:text="拖动"
+            android:textColor="@color/grey"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <com.xiyou.apps.lookpan.drag.DragSortListView
+        android:id="@+id/drag_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_below="@+id/title_view"
+        android:layout_margin="3dp"
+        android:background="@color/transparent"
+        android:cacheColorHint="@color/transparent"
+        android:choiceMode="multipleChoice"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:padding="3dp"
+        android:smoothScrollbar="true"
+        app:click_remove_id="@+id/click_remove"
+        app:collapsed_height="1px"
+        app:drag_enabled="true"
+        app:drag_handle_id="@+id/drag_handle"
+        app:drag_scroll_start="0.33"
+        app:drag_start_mode="onDown"
+        app:float_alpha="0.6"
+        app:remove_enabled="false"
+        app:remove_mode="clickRemove"
+        app:slide_shuffle_speed="0.3" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/title_bg_color"
+        android:padding="10dip" >
+
+        <LinearLayout
+            android:id="@+id/linearlayot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/bg_optional_check" />
+
+            <TextView
+                android:id="@+id/checkAll_text"
+                style="@style/white14Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="全选" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/delete_number"
+            style="@style/white14Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="删除（0）" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@+id/delete_number"
+            android:src="@drawable/lajitong" />
+    </RelativeLayout>
+
+</RelativeLayout>

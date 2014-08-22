@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">金智融贵金属</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="zixuan">自选        </string>
+    <string name="guoneizhijin">国内纸金</string>
+    <string name="guoneixianhuo">国内现货</string>
+    <string name="guojixianhuo">国际现货</string>
+    <string name="quanqiuwaihui">全球外汇</string>
+    <string name="guoneiguzhi">国内股指</string>
+    <string name="quanqiuzhishu">全球指数</string>
+    
+    <string name="pinzhong">品种</string>
+    <string name="mairu">买入</string>
+    <string name="maichu">卖出</string>
+    <string name="zhangdiefu">涨跌幅</string>
+    
+
+</resources>

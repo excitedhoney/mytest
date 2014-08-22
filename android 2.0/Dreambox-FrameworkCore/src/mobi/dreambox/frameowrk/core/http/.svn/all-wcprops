@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/http
+END
+DboxHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/http/DboxHttpClient.java
+END
+DboxHttpsClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/http/DboxHttpsClient.java
+END
+DboxHTTPClientException.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/http/DboxHTTPClientException.java
+END
+DboxHttpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/http/DboxHttpResponse.java
+END
+IDboxHttpClientCallBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/http/IDboxHttpClientCallBack.java
+END
+DboxJSonHttpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/http/DboxJSonHttpResponse.java
+END
+DboxStringHttpResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/http/DboxStringHttpResponse.java
+END

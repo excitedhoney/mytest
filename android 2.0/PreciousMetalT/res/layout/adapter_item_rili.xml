@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_rili_di" >
+
+        <ImageView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/country_australian" />
+
+        <TextView
+            android:id="@+id/Textcontenxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/country"
+            android:layout_alignTop="@+id/country"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/textView1"
+            android:layout_toRightOf="@+id/country"
+            android:maxLines="2"
+            android:text="6月CPI"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/country"
+            android:layout_marginRight="20dp"
+            android:text="已经公布"
+            android:textColor="@color/white" />
+
+        <View
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/country"
+            android:layout_marginTop="3dp"
+            android:background="#040000" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/country"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="3dp"
+            android:text="今值:"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/jinzhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/textView3"
+            android:text="N/A"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/jinzhi"
+            android:text="预期："
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/yuqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/textView4"
+            android:text="N/A"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/yuqi"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/yuqi"
+            android:text="前值:"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/qianzhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/textView5"
+            android:text="N/A"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <RatingBar
+            android:id="@+id/ratingbar"
+            style="@style/ratingbar_style"
+            android:layout_width="wrap_content"
+            android:layout_height="8dip"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="8dp"
+            android:rating="0" />
+    </RelativeLayout>
+
+</RelativeLayout>

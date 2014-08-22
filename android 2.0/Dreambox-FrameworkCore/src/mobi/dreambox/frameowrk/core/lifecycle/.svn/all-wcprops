@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/lifecycle
+END
+DboxFrameworkLifecycle.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/lifecycle/DboxFrameworkLifecycle.java
+END
+DboxComponentLifecycle.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/lifecycle/DboxComponentLifecycle.java
+END
+DboxFrameworkComponentManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/lifecycle/DboxFrameworkComponentManager.java
+END

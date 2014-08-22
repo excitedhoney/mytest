@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fullImageLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="#2D2D2D" >
+
+        <ImageView
+            android:id="@+id/back_image"
+            android:layout_width="36dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:padding="2dip"
+            android:src="@drawable/bg_title_back" />
+    </LinearLayout>
+
+    <widget.ImgViewTouch
+        android:id="@+id/fullImage"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:layout_below="@+id/ll_title"
+        android:scaleType="center" />
+
+</RelativeLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@color/title_bg_color"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/background_title_selctor" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/bg_title_back" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/white22Text"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="添加自选" />
+
+        <FrameLayout
+            android:id="@+id/rightLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/zixuanjishu" />
+
+            <TextView
+                android:id="@+id/selectNumber"
+                style="@style/white12Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:layout_marginRight="9dip"
+                android:layout_marginTop="9dip" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/title_bg_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="120dip"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/jgs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/background_optional_catalog" >
+
+                <TextView
+                    style="@style/white18Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dip"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="津贵所" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sjs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jgs"
+                android:background="@drawable/background_optional_catalog" >
+
+                <TextView
+                    style="@style/white18Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dip"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="上金所" />
+            </LinearLayout>
+          
+     <!--         <LinearLayout
+                android:id="@+id/commodity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sjs"
+                android:background="@drawable/background_optional_catalog"
+                android:gravity="center" >
+
+                <TextView
+                    style="@style/white18Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dip"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="商品" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/currency"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/commodity"
+                android:background="@drawable/background_optional_catalog"
+                android:gravity="center" >
+
+                <TextView
+                    style="@style/white18Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dip"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="外汇" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/inter_index"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/currency"
+                android:background="@drawable/background_optional_catalog"
+                android:gravity="center" >
+
+                <TextView
+                    style="@style/white18Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dip"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="国际指数" />
+            </LinearLayout>
+
+         <LinearLayout
+                android:id="@+id/yhgjs"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/inter_index"
+                android:gravity="center"
+                android:visibility="invisible" >
+
+                <TextView
+                    style="@style/white18Text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:minLines="40"
+                    android:text="银行贵金属 \n \n" />
+            </LinearLayout>
+            -->
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/title_bg_color"
+            android:dividerHeight="1dip" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

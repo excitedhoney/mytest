@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/content_bg_color"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/rg_fenshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <RadioButton
+            android:id="@+id/oritation_norm_days"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:drawableRight="@drawable/bg_optional_check"
+            android:minEms="4"
+            android:padding="10dip"
+            android:text="    日线    " />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/tab_driver" />
+
+        <RadioButton
+            android:id="@+id/oritation_norm_4_hours"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:drawableRight="@drawable/bg_optional_check"
+            android:minEms="4"
+            android:padding="10dip"
+            android:text="   4H线    " />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/tab_driver" />
+
+        <RadioButton
+            android:id="@+id/oritation_norm_1_hours"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:drawableRight="@drawable/bg_optional_check"
+            android:minEms="4"
+            android:padding="10dip"
+            android:text="   1H线    " />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/tab_driver" />
+        <!--
+             <RadioButton
+            android:id="@+id/oritation_norm_30_minute"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:minEms="4"
+            android:drawableRight="@drawable/bg_optional_check"
+            android:padding="10dip"
+            android:text="30分钟    " />
+        -->
+
+        <RadioButton
+            android:id="@+id/oritation_norm_15_minute"
+            android:layout_gravity="center"
+            android:button="@null"
+            android:drawableRight="@drawable/bg_optional_check"
+            android:minEms="4"
+            android:padding="10dip"
+            android:text="15M线    " />
+    </RadioGroup>
+
+    <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/oritation_norm_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:text="每天"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+             android:id="@+id/oritation_norm_4_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:text="4小时"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+             android:id="@+id/oritation_norm_1_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:text="1小时"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+             android:id="@+id/oritation_norm_30_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:text="30分钟"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+             android:id="@+id/oritation_norm_15_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="5dip"
+            android:text="15分钟"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+    -->
+
+</LinearLayout>

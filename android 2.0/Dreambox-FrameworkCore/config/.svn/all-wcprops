@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/config
+END
+CustomConfig.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/config/CustomConfig.properties
+END
+SystemConfig.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/config/SystemConfig.properties
+END
+ComponentConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/config/ComponentConfig.xml
+END
+DataBase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/config/DataBase.xml
+END

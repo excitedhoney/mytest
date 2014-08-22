@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.SettingActivity" >
+
+    <RelativeLayout
+        android:id="@+id/hander_view"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/title_bg_color"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/background_title_selctor"
+            android:onClick="back" >
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/bg_title_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/white18Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:maxEms="8"
+            android:singleLine="true"
+            android:text="指标设置" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_s"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hander_view"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="30dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_param1"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:text="S"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_param1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/content_bg_color"
+            android:maxEms="2"
+            android:numeric="integer"
+            android:padding="10dip"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_l"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_s"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_param2"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:text="L"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_param2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/content_bg_color"
+            android:maxEms="2"
+            android:numeric="integer"
+            android:padding="10dip"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_m"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_l"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_param3"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:text="M"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_param3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/content_bg_color"
+            android:maxEms="2"
+            android:numeric="integer"
+            android:padding="10dip"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/default_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ll_m"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dip"
+        android:text="默认设置"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/param_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_m"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:text=""
+        android:textColor="@color/blue"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_set"
+        style="@style/white18Text"
+        android:layout_width="fill_parent"
+        android:layout_height="42dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_register_ok_btn1"
+        android:text="设置"
+        android:textStyle="italic" />
+
+</RelativeLayout>

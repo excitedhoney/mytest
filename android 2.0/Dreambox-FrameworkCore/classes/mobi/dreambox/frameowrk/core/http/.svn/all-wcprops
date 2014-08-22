@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/classes/mobi/dreambox/frameowrk/core/http
+END
+DboxStringHttpResponse.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/classes/mobi/dreambox/frameowrk/core/http/DboxStringHttpResponse.class
+END
+DboxHttpClient.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/classes/mobi/dreambox/frameowrk/core/http/DboxHttpClient.class
+END
+DboxHTTPClientException.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/classes/mobi/dreambox/frameowrk/core/http/DboxHTTPClientException.class
+END
+IDboxHttpClientCallBack.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/classes/mobi/dreambox/frameowrk/core/http/IDboxHttpClientCallBack.class
+END
+DboxHttpsClient$TrustAnyHostnameVerifier.class
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/classes/mobi/dreambox/frameowrk/core/http/DboxHttpsClient$TrustAnyHostnameVerifier.class
+END
+DboxHttpsClient$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/classes/mobi/dreambox/frameowrk/core/http/DboxHttpsClient$1.class
+END
+DboxJSonHttpResponse.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/classes/mobi/dreambox/frameowrk/core/http/DboxJSonHttpResponse.class
+END
+DboxHttpResponse.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/classes/mobi/dreambox/frameowrk/core/http/DboxHttpResponse.class
+END
+DboxHttpsClient$TrustAnyTrustManager.class
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/classes/mobi/dreambox/frameowrk/core/http/DboxHttpsClient$TrustAnyTrustManager.class
+END
+DboxHttpsClient.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/classes/mobi/dreambox/frameowrk/core/http/DboxHttpsClient.class
+END

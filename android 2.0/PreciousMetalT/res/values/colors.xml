@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffFFFFFF</color>
+    <!-- 白色 -->
+    <color name="black">#FF000000</color>
+    <!-- 黑色 -->
+    <color name="yellow">#FFFFFF00</color>
+    <!-- 黄色 -->
+    <color name="transparent">#00000000</color>
+    <color name="blackTransparent">#3F000000</color>
+    <!-- 透明黑色 -->
+
+    <color name="blue">#FF3a80d2</color>
+    <color name="red">#ffb0031c</color>
+    <color name="grey">#ff7b828b</color>
+    <color name="green">#ff41b806</color>
+    <color name="content_bg_color">#101419</color>
+    <color name="title_bg_color">#1D2228</color>
+    <color name="grid_bg">#FFFFFFFF</color>
+    <color name="grid_border">#FFC6C6C6</color>
+    <color name="_red">#ff0000</color>
+    <color name="strategy_list_select">#1F2630</color>
+
+</resources>

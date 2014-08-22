@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/io
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/io/FileUtil.java
+END
+IOUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/io/IOUtil.java
+END
+ObjectIOUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/io/ObjectIOUtil.java
+END
+ZipFileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tomato/!svn/ver/5516/dzlc/Dreambox-FrameworkCore/src/mobi/dreambox/frameowrk/core/io/ZipFileUtil.java
+END

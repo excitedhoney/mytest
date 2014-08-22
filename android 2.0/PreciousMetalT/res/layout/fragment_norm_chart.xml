@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <cn.precious.metal.view.view.NormUnionCandleStickChart
+        android:id="@+id/norm_union_candle_stick_chart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <cn.precious.metal.view.view.CrossLineChart
+        android:id="@+id/cross_line_chart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <cn.precious.metal.view.view.GLineToolsChart
+        android:id="@+id/gline_tools_chart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <cn.precious.metal.view.view.GoldLineChart
+        android:id="@+id/gold_line_chart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+</FrameLayout>

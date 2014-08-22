@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Dreambox-FrameworkCore" default="main" basedir=".">
+	<property file="build-dist.properties" />
+
+	<!-- =================================================================== -->
+	<!-- Define the class path                       -->
+	<!-- =================================================================== -->
+	<path id="project.class.path">
+	    <fileset dir="${project.lib.dir}">
+	        <include name="**/commons-codec-1.3.jar" />
+	        <include name="**/commons-io-1.4.jar" />
+	    </fileset>
+		<fileset dir="${android.sdk.path}">
+		    <include name="**/android.jar" />
+		</fileset>
+	</path>
+
+	<!-- =================================================================== -->
+	<!-- Initialize                                                          -->
+	<!-- =================================================================== -->
+	<target name="init">
+
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Prepares the directory structure                                    -->
+	<!-- =================================================================== -->
+	<target name="prepare" depends="init">
+
+		<echo>+---------------------------------------------------+</echo>
+		<echo>|                                                   |</echo>
+		<echo>| P R E P A R E                                     |</echo>
+		<echo>|                                                   |</echo>
+		<echo>+---------------------------------------------------+</echo>
+		<delete dir="${project.dist.dir}" />
+		<delete dir="${project.classes.dir}" />
+		<mkdir dir="${project.dist.dir}" />
+		<mkdir dir="${project.classes.dir}" />
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Compiles all the classes                                            -->
+	<!-- =================================================================== -->
+	<target name="compile" depends="prepare, clean">
+		<echo>+---------------------------------------------------+</echo>
+		<echo>|                                                   |</echo>
+		<echo>| C O M P I L I N G   S O U R C E S                 |</echo>
+		<echo>|                                                   |</echo>
+		<echo>+---------------------------------------------------+</echo>
+		<javac destdir="${project.classes.dir}" classpathref="project.class.path" debug="on" deprecation="off" optimize="on" encoding="UTF-8">
+			<src path="${project.java.dir}" />
+		</javac>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Jar Build                                                           -->
+	<!-- =================================================================== -->
+	<target name="jar" depends="compile" description="Build the jar archive">
+		<echo>+---------------------------------------------------+</echo>
+		<echo>|                                                   |</echo>
+		<echo>| J A R   F I L E   B U I L D                       |</echo>
+		<echo>|                                                   |</echo>
+		<echo>+---------------------------------------------------+</echo>
+		<delete dir="${project.classes.dir}/.settings" />
+		<jar destfile="${jar.path}">
+			<fileset dir="${project.classes.dir}">
+				<include name="**/*.class" />
+			</fileset>
+			<!-- <fileset dir="${project.java.res.dir}">
+				<include name="**/*.xml" />
+				<include name="**/*.xsd" />
+				<include name="**/*.handlers" />
+				<include name="**/*.schemas" />
+				<include name="**/*.properties" />
+				<include name="**/*.config" />
+				<include name="**/*.json" /> 
+			</fileset>-->
+		</jar>
+	</target>
+
+	
+
+	<!-- =================================================================== -->
+	<!-- Clean                                                               -->
+	<!-- =================================================================== -->
+	<target name="clean">
+		<echo>+---------------------------------------------------+</echo>
+		<echo>|                                                   |</echo>
+		<echo>| C L E A N  P R O J E C T                          |</echo>
+		<echo>|                                                   |</echo>
+		<echo>+---------------------------------------------------+</echo>
+		<delete file="${project.dist.dir}/${project.name}-${version}.jar" />
+		<delete includeemptydirs="true">
+			<fileset dir="${project.dist.dir}">
+				<include name="**/*" />
+			</fileset>
+		</delete>
+		<delete includeemptydirs="true">
+			<fileset dir="${project.classes.dir}">
+				<include name="**/*" />
+			</fileset>
+		</delete>
+	</target>
+
+	<!-- =================================================================== -->
+	<!-- Main                                                                -->
+	<!-- =================================================================== -->
+	<target name="main" depends="jar">
+		<echo>Distributable under GNU LGPL license by gun.org</echo>
+	</target>
+
+</project>
